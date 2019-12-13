@@ -25,7 +25,7 @@ public class Main {
         Color back = monBandeau.getBackground();
         Color fore = monBandeau.getForeground();
 
-        monBandeau.setMessage("Bonjour");
+        monBandeau.setMessage("Bonjour"); //On pourrait changer le message
         Scenario monScenario = new Scenario();
 
         Clignotant cl = new Clignotant(5, monBandeau);
